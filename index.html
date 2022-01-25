@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Convebtion-center</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Cookie&family=Hind+Guntur:wght@300&family=Lobster+Two:ital@1&family=Merriweather+Sans&family=Montagu+Slab:wght@500&family=Montserrat:ital,wght@1,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- font-wasome -->
     <script src="https://kit.fontawesome.com/e892f86301.js" crossorigin="anonymous"></script>
     <!-- css style sheet -->
@@ -14,25 +18,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
-    <style>
-      .btn-aliceblue{
-        background-color: rgba(245, 224, 238, 0.651);
-        color: rgb(65, 88, 219);
-        font-weight: 700 ;
-      }
-      .scle{
-        transform: scale(1.01);
-        border-radius: 30px;
-        box-shadow: rgb(102, 27, 139);
-      }
-    </style>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body>
+  <body class="hind-guntur">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Zaara Convention Center</a>
+          <a class="navbar-brand roboto" href="#">Zaara Convention Center</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -84,7 +76,7 @@
               <img src="images/1.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption">
                 <h4>The perfect venue for your next event</h4>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p> 
+                <p class="hind-guntur">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p> 
                 <a href="https://www.event71.com/police-convention-hall/" class="btn text-primary bg-white px-5">Book Now</a>
               </div>
              
@@ -118,7 +110,7 @@
       </section>
       <!-- slaide section End -->
     </header>
-    <section class="container"> <!--tost-->
+    <section class="container my-5"> <!--tost-->
       <div
           class="toast show float-end ">
           <div class="d-flex">
@@ -214,10 +206,52 @@
         </div>
       </section> <!-- our package end -->
 
+      <!-- our happy costomer part -->
+<section class="container my-5 ">
+<h3 class="text-center mb-5">Happy Clients says</h3>
+<div class="row row-cols-1 row-cols-md-2 g-4 mx-auto justify-content-between">
+  <div class="col-lg-3">
+    <div class="card border-0 shadow align-items-center p-5">
+        <p class="card-text">Slate helps you see how many more days you need to work to reach your financial 
+         goal for the month and year</p>
+      <img src="images/person 1.png" class="card-img-top w-50" alt="..." >
+      <div class="card-body text-center">
+        <h5 class="card-title">Regina Miles
+        </h5>
+        <span>Banker</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card border-0 shadow align-items-center p-5">
+      <p class="card-text">Slate helps you see how many more days you need to work to reach your financial 
+        goal for the month and year</p>
+      <img src="images/person 2.png" class="card-img-top w-50" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">Jone Drake</h5>
+        <span>Banker</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card border-0 shadow align-items-center p-5">
+      <p class="card-text">Slate helps you see how many more days you need to work to reach your financial 
+        goal for the month and year</p>
+      <img src="images/person 3.png" class="card-img-top w-50" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">Cret Yate</h5>
+          <span>Banker</span>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--feedback-->
       <section class="container my-5">
         <!-- Frequently Asked Questions starrt -->
           <div class="row">
-            <div class="col-12 col-lg-6 col-md-12">
+            <div class="col-12 col-lg-6 col-md-12 mb-5">
               <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -281,15 +315,23 @@ is that exhibition is an instance of exhibiting, or something exhibited while co
         </section>
       </main>
 
-
-
-
-      
-
-
-
-
-
+      <!-- bonus part -->
+<section class="container">
+  <div class="row">
+    <div class="col-lg-5 bg-danger p-5 me-2 mb-2 align-items-center" style="height: 420px;">
+      <h1 class="text-white">Let's Get </h1>
+      <h1 class="text-white"> Planning</h1>
+      <p class="text-white">We'd love to hear your event. Fill out our Event Enquiries form and let's bring your vision to reality.</p>
+      <a href="https://www.event71.com/police-convention-hall/" class="btn bg-white text-primary px-5">Book Now</a>
+    </div>
+  
+    <div class="col-lg-6 bg-danger pt-2 ps-5 ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29198.061078159088!2d90.427188!3d23.827216!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c65c605d0e0b%3A0xe91272e017ec415f!2sDhaka%20Regency%20Hotel%20%26%20Resort!5e0!3m2!1sen!2sus!4v1643101677730!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  
+  </div>
+  </section>
+  <!-- bonus part -->
 
 
 
