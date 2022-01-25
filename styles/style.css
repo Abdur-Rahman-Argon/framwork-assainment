@@ -1,7 +1,7 @@
 .btn-aliceblue{
     background-color: rgba(245, 224, 238, 0.651);
     color: rgb(65, 88, 219);
-    font-weight: 700 ;
+    font-weight: 700;
   }
   .scle{
     transform: scale(1.01);
@@ -9,8 +9,8 @@
     box-shadow: rgb(102, 27, 139);
   }
   .roboto{
-    font-family: '', sans-serif;
+    font-family:  'Roboto', sans-serif;
   }
   .hind-guntur{
-    font-family: '', sans-serif;
+    font-family:  'Hind Guntur', sans-serif;
   }
